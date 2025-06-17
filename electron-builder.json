@@ -1,0 +1,18 @@
+{
+  "appId": "com.transparentai.assistant",
+  "productName": "Transparent AI Assistant",
+  "directories": {
+    "output": "release"
+  },
+  "files": ["dist/**/*", "out/**/*", "node_modules/**/*"],
+  "mac": {
+    "category": "public.app-category.productivity",
+    "target": "dmg"
+  },
+  "win": {
+    "target": "nsis"
+  },
+  "linux": {
+    "target": "AppImage"
+  }
+}
